@@ -24,6 +24,8 @@ This layer is responsible to provide DB and IO server support for all authentica
 The communication between Client and Server is performed via HTTP in a REST way.
  
 This app runs on a pre-forking box, with multiple workers, which may be easily scalated.
+
+It provides asynchronous tasks always as possible.
  
 Nginx is in front of the API end points working as load ballancer/proxy.
  
