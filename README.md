@@ -85,6 +85,17 @@ automatically integrated on T-Rex webOS with no line of code.
 
 It provides also, fully and agile support for building custom applications that will run and consume T-Rex webOS resources.
 
+	Front-End: 
+	- Language: Javascript
+	- Framework: DHTMLX
+
+	Back-End:
+	- Application layer: AgileRest
+	- data layer: PostgreSQL
+
+
+
+
 ## $dhx Framework
 
  - dhx DataDriver
