@@ -73,7 +73,7 @@ Repository: https://github.com/web2solutions/AgileWebsocket
 
 ## Agile Visual Designer
 
-Agile Visual Designer is a very sophisticated RAD/CASE *1 tool. 
+Agile Visual Designer is a very sophisticated RAD/CASE* tool. 
 
 
 
@@ -98,7 +98,7 @@ run and consume resources from T-Rex webOS.
 	- Application layer: AgileRest
 	- data layer: PostgreSQL
 
-*1 See:
+* See:
 
 	"https://en.wikipedia.org/wiki/Rapid_application_development" &&
 
