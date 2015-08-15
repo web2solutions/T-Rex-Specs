@@ -86,7 +86,7 @@ automatically integrated on T-Rex webOS with no line of code.
 It generates, in seconds, complex applications that you would waste weeks or months writing it.
 
 It provides also, fully and agile support for building custom applications that will 
-run and consume T-Rex webOS resources.
+run and consume resources from T-Rex webOS.
 
 	Front-End: 
 	- Language: Javascript
