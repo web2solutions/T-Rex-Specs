@@ -41,11 +41,14 @@ Repository: https://github.com/web2solutions/AgileREST
 	RDBMS: PostgreSQL 9.4
 	data cache: Redis
 	Application language: Perl
+	Framework: Mojolicious
 
 
 ## AgileWebsocket
 
 The AgileWebsocket, also built on top of Mojolicious, is a realtime application that is responsible by the messaging system on T-rex.
+
+The back-end is a Redis pub-sub.
 
 This messaging system is used by 3 main tasks:
 
@@ -54,6 +57,12 @@ This messaging system is used by 3 main tasks:
 	- communication with stand alone server workers.
 
 Repository: https://github.com/web2solutions/AgileWebsocket
+
+	
+	MQ: Redis
+	Application language: Perl
+	Framework: Mojolicious
+
 
 ## Agile Visual Designer
 
