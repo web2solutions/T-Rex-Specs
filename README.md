@@ -35,9 +35,7 @@ The AgileRest Layer does not servers static content, which is served via CDN / N
  
 Each server resource is fully protected via HTTP authorizations and tokens
 
-
-	Repository: https://github.com/web2solutions/AgileREST
-
+Repository: https://github.com/web2solutions/AgileREST
 
 
 	RDBMS: PostgreSQL 9.4
