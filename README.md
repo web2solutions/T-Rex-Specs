@@ -73,7 +73,7 @@ Repository: https://github.com/web2solutions/AgileWebsocket
 
 ## Agile Visual Designer
 
-Agile Visual Designer is a very sophisticated RAD tool. 
+Agile Visual Designer is a very sophisticated RAD/CASE tool. 
 
 More than that, it is a Database and Web Application designer.
 
