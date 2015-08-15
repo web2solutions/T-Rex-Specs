@@ -73,6 +73,17 @@ Repository: https://github.com/web2solutions/AgileWebsocket
 
 ## Agile Visual Designer
 
+Agile Visual Designer is a very sophisticated RAD tool. 
+
+More than that, it is a Database and Web Application designer.
+
+Agile Designer is the responsible tool for creating database tables, 
+REST end points, client meta data, generic and complete CRUDL interfaces.
+
+With Agile Visual designer, you are able to build advanced CRUDL applications to be 
+automatically integrated on T-Rex webOS with no line of code.
+
+It provides also, fully and agile support for building custom applications that will run and consume T-Rex webOS resources.
 
 ## $dhx Framework
 
