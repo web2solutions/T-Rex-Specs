@@ -33,8 +33,10 @@ The AgileRest layer provides support for hot deploy of new REST end points.
  
 The AgileRest layer provides automatic generated doc for each mapped server resource.
 
-	The generated docs provides all techinal informations about each end point .
-	It provides several working client code samples.
+	The generated docs provides all techinal informations about each REST end point.
+	
+	It provides several working client code samples for all type of operations that 
+	are supported by the end point.
  
 The AgileRest Layer does not servers static content, which is served via CDN / Nginx.
  
