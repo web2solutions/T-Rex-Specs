@@ -1,4 +1,4 @@
-# T-Rex web stack
+# T-Rex Toolkit
 
 > Build rich && high available enterprise web applications
 
