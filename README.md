@@ -32,6 +32,9 @@ Nginx is in front of the API end points working as load ballancer/proxy.
 The AgileRest layer provides support for hot deploy of new REST end points.
  
 The AgileRest layer provides automatic generated doc for each mapped server resource.
+
+	The generated docs provides all techinal informations about each end point .
+	It provides several working client code samples.
  
 The AgileRest Layer does not servers static content, which is served via CDN / Nginx.
  
