@@ -2,8 +2,9 @@
 
 > Build rich && high available enterprise web applications
 
-T-Rex is a complete web stack and application factory. 
-It lets you to create enterprise apps in a very short time and with no line of code.
+T-Rex is a complete web toolkit and framework.
+
+It lets you to create enterprise web apps in a very short time and with no line of code.
 
 it composed by the following softwares:
 
@@ -34,7 +35,14 @@ The AgileRest Layer does not servers static content, which is served via CDN / N
  
 Each server resource is fully protected via HTTP authorizations and tokens
 
-Repository: https://github.com/web2solutions/AgileREST
+
+	Repository: https://github.com/web2solutions/AgileREST
+
+
+
+	RDBMS: PostgreSQL 9.4
+	data cache: Redis
+	Application language: Perl
 
 
 ## AgileWebsocket
@@ -53,6 +61,13 @@ Repository: https://github.com/web2solutions/AgileWebsocket
 
 
 ## $dhx Framework
+
+ - dhx DataDriver
+ - dhx Rest
+ - dhx Cruder
+ - dhx component proxy
+ - dhtmlx modifiers
+ - dhx desktop
 
 
 Repository: https://github.com/web2solutions/dhx
