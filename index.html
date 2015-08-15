@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>T-rex webOS by web2solutions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">T-rex webOS</h1>
+      <h2 class="project-tagline">this is a &#39;specs&#39; only repository</h2>
+      <a href="https://github.com/web2solutions/T-Rex-Specs" class="btn">View on GitHub</a>
+      <a href="https://github.com/web2solutions/T-Rex-Specs/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/web2solutions/T-Rex-Specs/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="t-rex-toolkit" class="anchor" href="#t-rex-toolkit" aria-hidden="true"><span class="octicon octicon-link"></span></a>T-Rex Toolkit</h1>
+
+<blockquote>
+<p>Build rich &amp;&amp; high available enterprise web applications</p>
+</blockquote>
+
+<p>T-Rex is a complete web toolkit and framework.</p>
+
+<p>It lets you to create enterprise web apps in a very short time and with no line of code.</p>
+
+<p>it composed by the following softwares:</p>
+
+<ul>
+<li>AgileREST</li>
+<li>AgileWebsocket</li>
+<li>Agile Visual Designer</li>
+<li>$dhx Framework</li>
+<li>T-Rex webOS</li>
+</ul>
+
+<h2>
+<a id="agilerest" class="anchor" href="#agilerest" aria-hidden="true"><span class="octicon octicon-link"></span></a>AgileREST</h2>
+
+<p>The AgileRest layer is a high available REST environment built on top of Mojolicious, 
+a fantastic and modern Perl framework.</p>
+
+<p>This layer is responsible to provide DB and IO server support for all authenticated clients.</p>
+
+<p>The communication between Client and Server is performed via HTTP in a REST way.</p>
+
+<p>This app runs on a pre-forking box, with multiple workers, which may be easily scalated.</p>
+
+<p>It provides asynchronous tasks always as possible.</p>
+
+<p>Nginx is in front of the API end points working as load ballancer/proxy.</p>
+
+<p>The AgileRest layer provides support for hot deploy of new REST end points.</p>
+
+<p>The AgileRest layer provides automatic generated doc for each mapped server resource.</p>
+
+<pre><code>The generated docs provides all techinal informations about each REST end point.
+
+It provides several working client code samples for all type of operations that 
+are supported by the end point.
+</code></pre>
+
+<p>The AgileRest Layer does not servers static content, which is served via CDN / Nginx.</p>
+
+<p>Each server resource is fully protected via HTTP authorizations and tokens</p>
+
+<p>Repository: <a href="https://github.com/web2solutions/AgileREST">https://github.com/web2solutions/AgileREST</a></p>
+
+<pre><code>RDBMS: PostgreSQL 9.4
+data cache: Redis
+Application language: Perl
+Framework: Mojolicious
+</code></pre>
+
+<h2>
+<a id="agilewebsocket" class="anchor" href="#agilewebsocket" aria-hidden="true"><span class="octicon octicon-link"></span></a>AgileWebsocket</h2>
+
+<p>The AgileWebsocket, also built on top of Mojolicious, is a realtime application that is responsible by the messaging system on T-rex.</p>
+
+<p>The back-end is a Redis pub-sub.</p>
+
+<p>This messaging system is used by 3 main tasks:</p>
+
+<pre><code>- bind and sync between client components X indexedDB X server.
+- propagate application state between connected clients.
+- communication with stand alone server workers.
+</code></pre>
+
+<p>Repository: <a href="https://github.com/web2solutions/AgileWebsocket">https://github.com/web2solutions/AgileWebsocket</a></p>
+
+<pre><code>MQ: Redis
+Application language: Perl
+Framework: Mojolicious
+</code></pre>
+
+<h2>
+<a id="agile-visual-designer" class="anchor" href="#agile-visual-designer" aria-hidden="true"><span class="octicon octicon-link"></span></a>Agile Visual Designer</h2>
+
+<p>Agile Visual Designer is a very sophisticated RAD/CASE* tool. </p>
+
+<p>More than that, it is a Database and Web Application designer.</p>
+
+<p>Agile Designer is the responsible tool for creating database tables, 
+REST end points, client meta data, generic and complete CRUDL interfaces.</p>
+
+<p>With Agile Visual designer, you are able to build advanced CRUDL applications to be 
+automatically integrated on T-Rex webOS with no line of code.</p>
+
+<p>It generates, in seconds, complex applications that you would spend weeks or months writing it.</p>
+
+<p>It provides also, fully and agile support for building custom applications that will 
+run and consume resources from T-Rex webOS.</p>
+
+<pre><code>Front-End: 
+- Language: Javascript
+- Framework: DHTMLX
+
+Back-End:
+- Application layer: AgileRest
+- data layer: PostgreSQL
+</code></pre>
+
+<ul>
+<li>
+<p>See:</p>
+
+<p>"<a href="https://en.wikipedia.org/wiki/Rapid_application_development">https://en.wikipedia.org/wiki/Rapid_application_development</a>" &amp;&amp;</p>
+
+<p>"<a href="https://en.wikipedia.org/wiki/Computer-aided_software_engineering">https://en.wikipedia.org/wiki/Computer-aided_software_engineering</a>"</p>
+</li>
+</ul>
+
+<h2>
+<a id="dhx-framework" class="anchor" href="#dhx-framework" aria-hidden="true"><span class="octicon octicon-link"></span></a>$dhx Framework</h2>
+
+<ul>
+<li>dhx DataDriver</li>
+<li>dhx Rest</li>
+<li>dhx Cruder</li>
+<li>dhx component proxy</li>
+<li>dhtmlx modifiers</li>
+<li>dhx desktop</li>
+</ul>
+
+<p>Repository: <a href="https://github.com/web2solutions/dhx">https://github.com/web2solutions/dhx</a></p>
+
+<h2>
+<a id="t-rex-webos" class="anchor" href="#t-rex-webos" aria-hidden="true"><span class="octicon octicon-link"></span></a>T-Rex webOS</h2>
+
+<p>Repository: It is part of $dhx Framework</p>
+
+<h3>
+<a id="authors-license-and-copyright" class="anchor" href="#authors-license-and-copyright" aria-hidden="true"><span class="octicon octicon-link"></span></a>AUTHORS, LICENSE AND COPYRIGHT</h3>
+
+<ul>
+<li>
+<p>José Eduardo Perotta de Almeida. eduardo at web2solutions.com.br</p>
+
+<p>Copyright 2015 </p>
+</li>
+</ul>
+
+<ul>
+<li>AGPL for personal use.</li>
+<li>Commercial &amp;&amp; Enterpsise 
+Please contact the author for commercial usage</li>
+</ul>
+
+<h3>
+<a id="bugs" class="anchor" href="#bugs" aria-hidden="true"><span class="octicon octicon-link"></span></a>BUGS</h3>
+
+<p>Actually this software is under development. There is no stable version yet.</p>
+
+<p>Please report any bugs or feature requests through the email address: eduardo at web2solutions.com.br</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/web2solutions/T-Rex-Specs">T-rex webOS</a> is maintained by <a href="https://github.com/web2solutions">web2solutions</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
