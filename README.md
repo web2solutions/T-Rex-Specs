@@ -127,6 +127,4 @@ Repository: It is part of $dhx Framework
 
   Copyright 2015 
 
-- AGPL for personal use.
-- Commercial && Enterpsise 
-	Please contact the author for commercial usage
+- Commercial licensing only
