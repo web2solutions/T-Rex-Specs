@@ -157,7 +157,9 @@ The webOS offers 4 main type of applications
  	It provides a full CRUD interface for every maped table.
 
  	The generated cruds provide rich form validations and masks, 
+ 	
  	rich validation and masks for grid cells.
+ 	
  	sophisticated uploader system with validation and limit of files.
 
  	There is also available, a 'preview file system' built in on every section of cruds where you are viewing records.
@@ -165,16 +167,21 @@ The webOS offers 4 main type of applications
  - Plugins
 
  	Plugins are Javascript applications which may be created by any person using Javascript and module pattern.
+ 	
  	Plugins are started when T-Rex starts.
- 	Every plugin has button on T-Rex's Top Bar which will be responsible by rendering the plugin's view.
- 	It may have or not a button on T-Rex's Left Bar
+
+ 	Every plugin has it own button on T-Rex's Top Bar which will be responsible by rendering the plugin's view.
+ 	
+ 	It may have or not a button on T-Rex's Left Side Bar
 
 
  - Custom application
 
  	Custom applications are Javascript applications which may be created by any person using Javascript and module pattern.
+ 	
  	Applications are started when you clicks on it icon.
- 	Every plugin has button on T-Rex's Top Bar which will be responsible by rendering the plugin's view.
+ 	
+ 	Every application has it own button on T-Rex's Left Side Bar which will be responsible by starting the application calling it start() method from application's controller.
 
 
 
