@@ -189,12 +189,16 @@ The webOS offers 4 main type of applications
  #### Note:
 
 
- 	T-Rex offers directly access to the data model for every registered application. 
+ 	T-Rex offers directly access to the complete data model and storage for every registered application or plugin. 
 
  	It means, except when the developer need to created a new database table, he will not need worry about the model of the application,
  	keep focusing on the controller and view layer only. 
 
- 	It has available also,  all meta data for DHTMLX forms for every table on the shared database. It means developer will may take advantage of T-Rex even for designing him application's forms
+ 	It has available also,  all meta data for DHTMLX forms for every table on the shared database. It means developer will may take advantage of T-Rex even for designing him application's forms.
+
+ 	Every registered application has directly and authenticated server access through $dhx.REST.API namespace and AgileREST server stack. Check it documentation.
+
+ 	Every registered application has directly local database access automatically keeping it in sync with online database through the $dhx.dataDriver namespace.
 
 Repository: T-Rex is built on top of $dhx framework, under the namespace $dhx.ui.desktop
 
