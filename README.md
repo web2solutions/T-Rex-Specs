@@ -189,7 +189,7 @@ The webOS offers 4 main type of applications
  #### Note:
 
 
- 	T-Rex offers directly access to the data model for every registered plugins. 
+ 	T-Rex offers directly access to the data model for every registered application. 
 
  	It means, except when the developer need to created a new database table, he will not need worry about the model of the application,
  	keep focusing on the controller and view layer only. 
