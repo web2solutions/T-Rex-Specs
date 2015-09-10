@@ -196,9 +196,11 @@ The webOS offers 4 main type of applications
 
  	It has available also,  all meta data for DHTMLX forms for every table on the shared database. It means developer will may take advantage of T-Rex even for designing him application's forms.
 
- 	Every registered application has directly and authenticated server access through $dhx.REST.API namespace and AgileREST server stack. Check it documentation.
+ 	Every registered application has directly and authenticated server access through $dhx.REST.API namespace and AgileREST server stack. Check it documentation. https://github.com/web2solutions/dhx/blob/master/docs/%24dhx.REST.API.md
 
- 	Every registered application has directly local database access automatically keeping it in sync with online database through the $dhx.dataDriver namespace.
+ 	Every registered application has directly local database access automatically keeping it in sync with online database through the $dhx.dataDriver namespace. Check it documentation: https://github.com/web2solutions/dhx/blob/master/docs/%24dhx.dataDriver.md
+
+ 	The Agile Visual Designer provides full and live documentation about each REST(AgileREST server stack) end point with example codes.
 
 Repository: T-Rex is built on top of $dhx framework, under the namespace $dhx.ui.desktop
 
