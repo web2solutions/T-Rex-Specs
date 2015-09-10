@@ -55,7 +55,7 @@ Repository: https://github.com/web2solutions/AgileREST
 
 The AgileWebsocket, also built on top of Mojolicious, is a realtime application that is responsible by the messaging system on T-rex.
 
-The back-end is a Redis pub-sub.
+The back-end is a Redis pub-sub. (RabbitMQ coming soon)
 
 This messaging system is used by 3 main tasks:
 
@@ -66,7 +66,7 @@ This messaging system is used by 3 main tasks:
 Repository: https://github.com/web2solutions/AgileWebsocket
 
 	
-	MQ: Redis
+	MQ: Redis (RabbitMQ coming soon)
 	Application language: Perl
 	Framework: Mojolicious
 
@@ -112,14 +112,14 @@ run and consume resources from T-Rex webOS.
  - dhx Cruder
  - dhx component proxy
  - dhtmlx modifiers
- - dhx desktop
+ - dhx desktop (T-Rex webOS)
 
 
 Repository: https://github.com/web2solutions/dhx
 
 ## T-Rex webOS
 
-T-Rex webos, is a web application which offers a full featured environment.
+T-Rex webOS, is a Javascript application which offers a full featured enterprise environment.
 
 It include features like:
 
@@ -144,14 +144,47 @@ It include features like:
  - Easy installation of plugins (Javascript modules)
  - Easy installation of custom applications (Javascript modules)
 
-The webos offers 3 main type of applications
+The webOS offers 4 main type of applications
+
+ - T-Rex built in applications
+ 	- Complete search over all data and applications though a ominibox
+ 	- User preferences application
+ 	- File Explorer
 
  - Cruders
 
- 	Cruders are generated CRUDs designed at Agile Visual Designer. It provides a full CRUD interface for every maped table.
+ 	Cruders are generated CRUDs designed at Agile Visual Designer. 
+ 	It provides a full CRUD interface for every maped table.
+
+ 	The generated cruds provide rich form validations and masks, 
+ 	rich validation and masks for grid cells.
+ 	sophisticated uploader system with validation and limit of files.
+
+ 	There is also available, a 'preview file system' built in on every section of cruds where you are viewing records.
 
  - Plugins
+
+ 	Plugins are Javascript applications which may be created by any person using Javascript and module pattern.
+ 	Plugins are started when T-Rex starts.
+ 	Every plugin has button on T-Rex's Top Bar which will be responsible by rendering the plugin's view.
+ 	It may have or not a button on T-Rex's Left Bar
+
+
  - Custom application
+
+ 	Custom applications are Javascript applications which may be created by any person using Javascript and module pattern.
+ 	Applications are started when you clicks on it icon.
+ 	Every plugin has button on T-Rex's Top Bar which will be responsible by rendering the plugin's view.
+
+
+
+ Note:
+
+
+ 	T-Rex offers directly access to the data model for every registered plugins. It means, 
+ 	except when the developer need to created a new database table, he will not need worry about the model of the application,
+ 	keep focusing on the controller and view layer only. 
+ 	It has available also,  all meta data for dhtmlx forms for every table on the sared databsase. It means developer will may take advantage of T-Rex even for designing him application's forms
 
 Repository: T-Rex is built on top of $dhx framework, under the namespace $dhx.ui.desktop
 
