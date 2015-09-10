@@ -194,7 +194,7 @@ The webOS offers 4 main type of applications
  	It means, except when the developer need to created a new database table, he will not need worry about the model of the application,
  	keep focusing on the controller and view layer only. 
 
- 	It has available also,  all meta data for dhtmlx forms for every table on the sared databsase. It means developer will may take advantage of T-Rex even for designing him application's forms
+ 	It has available also,  all meta data for DHTMLX forms for every table on the shared database. It means developer will may take advantage of T-Rex even for designing him application's forms
 
 Repository: T-Rex is built on top of $dhx framework, under the namespace $dhx.ui.desktop
 
