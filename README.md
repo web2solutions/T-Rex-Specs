@@ -75,8 +75,6 @@ Repository: https://github.com/web2solutions/AgileWebsocket
 
 Agile Visual Designer is a very sophisticated RAD/CASE* tool. 
 
-
-
 More than that, it is a Database and Web Application designer.
 
 Agile Designer is the responsible tool for creating database tables, 
@@ -100,6 +98,8 @@ run and consume resources from T-Rex webOS.
 
 * See:
 
+	https://www.youtube.com/watch?v=mHSa_5qI1Ps
+
 	"https://en.wikipedia.org/wiki/Rapid_application_development" &&
 
 	"https://en.wikipedia.org/wiki/Computer-aided_software_engineering"
@@ -119,7 +119,44 @@ Repository: https://github.com/web2solutions/dhx
 
 ## T-Rex webOS
 
-Repository: It is part of $dhx Framework
+T-Rex webos, is a web application which offers a full featured environment.
+
+It include features like:
+
+ - Server and client database with a very sophisticated data types, data validation and data sync system.
+ - Share database and tables through multiple applications
+ 	Developers will not care about data models, focusing only on controller and view for every new created application
+ - Syncing and binding components
+ - client state persistance through websocket and RabbitMQ
+ - shared REST communication with server
+ - shared websocket communication with server
+ - User management and permissions
+ - Personal user settings
+ - Localization - US and BR. It's very easy to create your own localization.
+ - Latinization of forms
+ - Built in PDF viewer
+ - Built in PDF export for grids
+ - Built in CSV export for grids
+ - RAD designer
+ - File Explorer application
+ - Webmail
+ - Authentication over HTTP
+ - Easy installation of plugins (Javascript modules)
+ - Easy installation of custom applications (Javascript modules)
+
+The webos offers 3 main type of applications
+
+ - Cruders
+
+ 	Cruders are generated CRUDs designed at Agile Visual Designer. It provides a full CRUD interface for every maped table.
+
+ - Plugins
+ - Custom application
+
+Repository: T-Rex is built on top of $dhx framework, under the namespace $dhx.ui.desktop
+
+
+https://www.youtube.com/watch?v=_m1HhH4l5HA
 
 ### AUTHORS, LICENSE AND COPYRIGHT
 
