@@ -213,4 +213,4 @@ https://www.youtube.com/watch?v=_m1HhH4l5HA
 
   Copyright 2015 
 
-- Commercial licensing only
+- GPL v2.0
